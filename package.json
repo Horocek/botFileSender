@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Horocek/botFileSender/issues"
   },
-  "homepage": "https://github.com/Horocek/botFileSender#readme"
+  "homepage": "https://github.com/Horocek/botFileSender#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
