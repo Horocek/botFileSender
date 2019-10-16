@@ -20,7 +20,7 @@ bot.on('message', (msg) => {
   cron.schedule('* * * * *', () => {
     try {
       var data = fs.readFileSync('file.txt', 'utf8'); //чтение файла
-      bot.sendMessage(chatId, data);    //отправляем файл
+      bot.sendMessage(chatId, data);    //отправляем файл в чат
     } catch(e) {
         bot.sendMessage(chatId, 'ошибка нет файла');
       }
